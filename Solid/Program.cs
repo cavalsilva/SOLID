@@ -1,4 +1,5 @@
-﻿using Solid.SRP;
+﻿using Solid.OPC;
+using Solid.SRP;
 using Solid.SRP.Repository;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,15 @@ namespace Solid
             IFornecedorRepository rep = new FornecedorRepository();
             rep.Salvar(fornecedor);
             #endregion
+
+            #region OCP
+            var p = new Pessoa("Ricardo");
+            p.ChangeName("Ricardo Silva");
+
+            var pf = new PessoaFisica("Ricardo", "999.999.999.-99");
+            #endregion
+
+
 
         }
     }
