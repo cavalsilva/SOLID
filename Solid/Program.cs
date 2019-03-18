@@ -13,7 +13,7 @@ namespace Solid
     {
         static void Main(string[] args)
         {
-            #region SRP
+            #region SRP - Simple Responsibility Principle
             Fornecedor fornecedor = new Fornecedor();
             fornecedor.ChangeName("Ricardo");
 
@@ -21,14 +21,24 @@ namespace Solid
             rep.Salvar(fornecedor);
             #endregion
 
-            #region OCP
+            #region OCP - Open/Closed Principle
             var p = new Pessoa("Ricardo");
             p.ChangeName("Ricardo Silva");
 
             var pf = new PessoaFisica("Ricardo", "999.999.999.-99");
             #endregion
 
+            #region LSP - Liskov Substituition Principle
 
+            #endregion
+
+            #region ISP - Interface Segregation Principle
+
+            #endregion
+
+            #region DIP - Dependency Inversion Principle
+            
+            #endregion
 
         }
     }
