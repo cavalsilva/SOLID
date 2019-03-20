@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ISP\Contracts\IEndereco.cs" />
+    <Compile Include="ISP\Contracts\IEnderecoComercial.cs" />
+    <Compile Include="ISP\Contracts\IPedido.cs" />
+    <Compile Include="ISP\NotaFiscal.cs" />
     <Compile Include="LSP\Carro.cs" />
     <Compile Include="LSP\Veiculo.cs" />
     <Compile Include="OPC\Pessoa.cs" />

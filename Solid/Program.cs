@@ -1,4 +1,5 @@
-﻿using Solid.LSP;
+﻿using Solid.ISP;
+using Solid.LSP;
 using Solid.OPC;
 using Solid.SRP;
 using Solid.SRP.Repository;
@@ -31,7 +32,8 @@ namespace Solid
             #endregion
 
             #region ISP - Interface Segregation Principle
-
+            NotaFiscal nf = new NotaFiscal();
+            nf.RealizarPedido();
             #endregion
 
             #region DIP - Dependency Inversion Principle
