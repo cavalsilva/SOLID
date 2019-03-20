@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DIP\Contracts\CustomerRepository.cs" />
+    <Compile Include="DIP\Contracts\ICustomerRepository.cs" />
+    <Compile Include="DIP\CustomerService.cs" />
     <Compile Include="ISP\Contracts\IEndereco.cs" />
     <Compile Include="ISP\Contracts\IEnderecoComercial.cs" />
     <Compile Include="ISP\Contracts\IPedido.cs" />
