@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LSP\Carro.cs" />
+    <Compile Include="LSP\Veiculo.cs" />
     <Compile Include="OPC\Pessoa.cs" />
     <Compile Include="OPC\PessoaFisica.cs" />
     <Compile Include="Program.cs" />

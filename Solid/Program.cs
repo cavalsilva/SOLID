@@ -1,11 +1,8 @@
-﻿using Solid.OPC;
+﻿using Solid.LSP;
+using Solid.OPC;
 using Solid.SRP;
 using Solid.SRP.Repository;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Solid
 {
@@ -29,7 +26,8 @@ namespace Solid
             #endregion
 
             #region LSP - Liskov Substituition Principle
-
+            var veiculo = new Carro();
+            veiculo.LigarMotor();
             #endregion
 
             #region ISP - Interface Segregation Principle
@@ -37,9 +35,10 @@ namespace Solid
             #endregion
 
             #region DIP - Dependency Inversion Principle
-            
+
             #endregion
 
+            Console.ReadKey();
         }
     }
 }
